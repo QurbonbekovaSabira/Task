@@ -1,0 +1,40 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.084);
+}
+
+
+
+
+.MuiInputLabel-formControl .MuiInputLabel-animated .MuiInputLabel-sizeMedium .MuiInputLabel-outlined .MuiFormLabel-colorPrimary .MuiInputLabel-root .MuiInputLabel-formControl .MuiInputLabel-animated .MuiInputLabel-sizeMedium .MuiInputLabel-outlined .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    color: #FFC107 !important;
+}
+
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root,
+.Mui-focused {
+    color: #FFC107 !important;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    color: #4c4635 !important;
+    opacity: 0.9 !important;
+}
+
+.MuiOutlinedInput-notechedOutline,
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border: 1px solid #FFC107 !important;
+}

@@ -10,7 +10,3 @@ export const store = configureStore({
     return defaultMiddleware().concat(...service.map((api) => api.middleware));
   },
 });
-
-// store.subscribe(() => {
-//   saveState("user", store.getState()?.userReducer);
-// });

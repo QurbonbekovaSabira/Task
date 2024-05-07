@@ -4,12 +4,8 @@ import Typography from "@mui/material/Typography";
 import { loadState } from "../../config/storege";
 import { Container } from "@mui/material";
 import { Profile } from "../../assets/icon/profile";
-import { usePostBookQuery } from "../../redux/service/post-book";
-
 export const Home = () => {
   const user = loadState("user");
-  const {data} = usePostBookQuery();
-  console.log(data);
   
   return (
     <Container
